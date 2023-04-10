@@ -10,28 +10,28 @@ func main() {
 	*/
 	// Belajar variabel
 	// deklarasi variabel menggunakan konsep manyfest typing
-	// println("Deklarasi variabel dengan keyword var / manyfest typing")
-	// var firstName string = "Jessi"
-	// fmt.Println("Hallo", firstName)
+	println("Deklarasi variabel dengan keyword var / manyfest typing")
+	var firstName string = "Jessi"
+	fmt.Println("Hallo", firstName)
 
 	// deklarasi variabel menggunakan konsep type inference
-	// println("Deklarasi variabel dengan konsep type inference")
-	// waktu := "siang"
-	// fmt.Println("Selamat", waktu)
+	println("Deklarasi variabel dengan konsep type inference")
+	waktu := "siang"
+	fmt.Println("Selamat", waktu)
 
-	// var suhu string = "dingin"
-	// fmt.Println("Cuacanya adalah ", suhu)
+	var suhu string = "dingin"
+	fmt.Println("Cuacanya adalah ", suhu)
 
 	// deklarasi multi variabel
-	// var buah1, buah2, buah3 string = "mangga", "pisang", "jeruk"
-	// fmt.Println("Buah 1", buah1)
-	// fmt.Println("Buah 2", buah2)
-	// fmt.Println("Buah 3", buah3)
+	var buah1, buah2, buah3 string = "mangga", "pisang", "jeruk"
+	fmt.Println("Buah 1", buah1)
+	fmt.Println("Buah 2", buah2)
+	fmt.Println("Buah 3", buah3)
 
-	// item1, item2, item3 := "baju", true, 1
-	// fmt.Println("Item 1 : ", item1)
-	// fmt.Println("Item 2 : ", item2)
-	// fmt.Println("Item 3 : ", item3)
+	item1, item2, item3 := "baju", true, 1
+	fmt.Println("Item 1 : ", item1)
+	fmt.Println("Item 2 : ", item2)
+	fmt.Println("Item 3 : ", item3)
 
 	// tipe data
 	// tipe data numerik non-desimal
